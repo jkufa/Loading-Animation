@@ -16,8 +16,9 @@ body {
   height: 100vh;
 }
 
+
 .j-container {
-  font-size: 12rem;
+  font-size: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,5 +90,11 @@ body {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 960px) {
+  .j-container {
+    font-size: 12rem;
   }
 }
