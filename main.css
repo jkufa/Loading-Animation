@@ -76,18 +76,18 @@ body {
 
 @keyframes flip {
   0% {
-    rotate: none;
+    transform: rotate(0);
   }
   30% {
-    rotate: 380deg;
+    transform: rotate(380deg);
   }
   55% {
-    rotate: 350deg;
+    transform: rotate(350deg);
   }
   70% {
-    rotate: 365deg;
+    transform: rotate(365deg);
   }
   100% {
-    rotate: 360deg;
+    transform: rotate(360deg);
   }
 }
